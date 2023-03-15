@@ -15,14 +15,13 @@ void getArray(string[] rawArray, string[] limitArray)
     }
 }
 
-void printArray(string[] array)
+void printArray(string[] limitArray)
 {
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 0; i < limitArray.Length; i++)
     {
-        Console.Write($"{array[i]} ");
+        Console.Write($"{limitArray[i]} ");
     }
 }
-
 
 Console.Clear();
 
